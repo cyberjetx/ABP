@@ -1,0 +1,69 @@
+[Adblock Plus 2.0]
+! Version:
+! Title:
+! Last modified:
+! Expires: 4 days (update frequency)
+! Homepage:
+!
+variety.com##.pmc-adm-goog-pub-div.ad-text
+variety.com##.c-widget__content
+variety.com##.l-wrap__secondary
+variety.com##.pmc-contextual-player
+variety.com##.ob-widget-items-container
+variety.com##.c-ad.c-ad--outbrain
+variety.com##.apester-fill-content
+variety.com##iframe[src="about:blank"]
+variety.com##.l-article__footer
+variety.com###APESTER_1
+variety.com##.apester-active.apester-layer.apester-layout
+variety.com##.c-ad.c-ad--subscribe
+variety.com###article-comments
+variety.com##.module-comments
+variety.com##.pmc-adm-goog-pub-div
+variety.com##.l-more-from
+variety.com##.l-footer__nav
+variety.com##.c-logo.c-logo--with-motto
+variety.com###vy-site-header
+variety.com##.l-header.has-transitions.is-visible.is-fixed
+variety.com###vy-site-header
+variety.com##.l-footer__copy
+variety.com##.l-header__leaderboard
+dailystar.co.uk##.qc-cmp-ui-content
+drudgereport.com#?#div:-abp-has(> div:-abp-contains(-ad-))
+washingtonpost.com##.hzg__hbxumfc
+postfun.com###primary-over-title
+postfun.com##.primary-ad-widget
+thedailybeast.com##.tp-backdrop.tp-active
+thedailybeast.com#?#div:-abp-has(> div:-abp-contains(background-flexBox))
+thedailybeast.com##.tp-modal
+thedailybeast.com###checkout-container
+nytimes.com###gateway-content
+nytimes.com##.css-n7r8pg
+nbcnews.com##.fEy1Z2XT
+drudgereport.com^$script
+nbcnews.com^$script
+desmoinesregister.com^$script
+washingtonpost.com^$script
+dailystar.co.uk^$script
+miamiherald.com^$script
+dailymail.co.uk^$script
+thedailybeast.com^$script
+||buy.tinypass.com/*
+nytimes.com^$script
+@@||forbes.com^$generichide
+@@||forbes.com^$genericblock
+||moatads.com^$domain=forbes.com
+||sharethrough.com^$domain=forbes.com
+||amazon-adsystem.com^$domain=forbes.com
+||tpc.googlesyndication.com^$domain=forbes.com
+||googleads.g.doubleclick.net^$domain=forbes.com
+||s0.2mdn.net^$domain=forbes.com
+forbes.com##[id^="google_ads_iframe"]
+forbes.com##[id^="top-ad"]
+||securepubads.g.doubleclick.net^$domain=forbes.com
+@@||securepubads.g.doubleclick.net/gampad/ads?gdfp_req=1&correlator=$domain=forbes.com
+foxnews.com^$script
+foxnews.com##.fc-dialog-overlay
+foxnews.com##.fc-dialog-container
+ytssub.com^$script
+seattletimes.com^$script
