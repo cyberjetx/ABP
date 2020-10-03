@@ -79,3 +79,9 @@ willi.am##.drip-toggle
 wsj.com##.middleBlock
 express.co.uk###video_6156388001001_0
 express.co.uk##.video-js.vjs-controls-enabled.vjs-workinghover.vjs-v7.bc-player-B1Hli6KCG_default.bc-player-B1Hli6KCG_default-index-0.vjs-mouse.ns-video-js.vjs-dock.vjs-plugins-ready.ns-player-sticky-ready.vjs-contextmenu.vjs-contextmenu-ui.vjs-player-info.vjs-errors.vjs-nsIma3.vjs-ima3-html5.vjs-has-started.vjs-playing.vjs-layout-small.ns-player-stuck.vjs-user-active
+goodmenproject.com##.sc3rv0syz89i
+goodmenproject.com###wpd-bubble-count
+goodmenproject.com###boxzilla-329842
+goodmenproject.com##.boxzilla.boxzilla-329842.boxzilla-top-left.boxzilla-newsletter-onscroll
+thehill.com##.azt67df4zp5t
+doodly.com###provely-iframe
