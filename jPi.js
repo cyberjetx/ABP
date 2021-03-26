@@ -189,4 +189,4 @@ var Piechart = function(options) {
     myDoughnutchart.draw();
 
     */
-alert('Loading Done');
+
