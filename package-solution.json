@@ -1,0 +1,38 @@
+{
+	"$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+	"solution": {
+		"name": "my Tool",
+		"id": "11f12daf-dead-dead-dead-b1f75816be67",
+		"version": "1.0.0.85",
+		"includeClientSideAssets": true,
+		"skipFeatureDeployment": true,
+		"isDomainIsolated": false,
+		"developer": {
+			"name": "Joe Johnston",
+			"websiteUrl": "",
+			"privacyUrl": "",
+			"termsOfUseUrl": "",
+			"mpnId": "Undefined-1.15.2"
+		},
+		"metadata": {
+			"shortDescription": {
+				"default": "short"
+			},
+			"longDescription": {
+				"default": "long"
+			},
+			"screenshotPaths": [],
+			"videoUrl": "",
+			"categories": []
+		},
+		"features": [{
+			"title": "S-MOC Feature",
+			"description": "desc",
+			"id": "610b8d8d-dead-dead-dead-e5317ad841c7",
+			"version": "1.0.0.2"
+		}]
+	},
+	"paths": {
+		"zippedPackage": "solution/MT.sppkg"
+	}
+}
