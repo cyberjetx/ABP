@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Joe Fiddles</title>
+
+
+    <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/themes/vader/jquery-ui.css" rel="stylesheet" />
+
+    <script src="//code.jquery.com/jquery-1.10.2.min.js" type="text/javascript"></script>
+    <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js" type="text/javascript"></script>
+    <script type="text/javascript" src="http://cdn.datatables.net/1.10.7/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="http://cdn.datatables.net/tabletools/2.2.4/js/dataTables.tableTools.min.js"></script>
+
+    <link href="http://cdn.datatables.net/1.10.7/css/jquery.dataTables.css" rel="stylesheet" />
+    <link href="http://cdn.datatables.net/tabletools/2.2.4/css/dataTables.tableTools.css" rel="stylesheet" />
+
+    <script src="jsFiddle.js"></script>
+
+    <style type="text/css">
+        body {
+            font-family: 'Lucida Grande', 'Lucida Sans', 'Lucida Sans Unicode', 'Myriad', Tahoma, Verdana, Arial;
+            font-size: .8em;
+            color: #4D5860;
+        }
+
+        th {
+            background-color: #efefef
+        }
+
+        .odd {
+            background-color: #EAF6F9!important;
+        }
+
+        h1 {
+            margin: 0 0 15px;
+            font-size: 1.2em;
+        }
+
+        a {
+            color: #478CDE;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        span {
+            font-size: .8em;
+            color: #7F7F7F;
+        }
+
+        ul {
+        }
+
+        li {
+            margin: 0 0 5px;
+            padding: 0 0 5px;
+            border-bottom: solid 1px #FEFEFE;
+        }
+
+        p {
+            font-size: .9em;
+            color: #7F7F7F;
+            padding: 5px 0 0;
+        }
+    </style>
+
+</head>
+<body>
+<!-- Your fiddle needs a title for the API to list it -->
+
+    <div class='wrapper'>
+        <b>My Fiddles</b>
+
+        <!-- myFiddles - DataTable ready table -->
+        <table id="myFiddles" class="fid dataTable" cellspacing="0" border="1">
+            <thead id="myFiddlesHdr">
+                <tr>
+                    <th>title</th>
+                    <th>Version</th>
+                    <th>created</th>
+                    <th>framework</th>
+                    <th>description</th>
+                </tr>
+            </thead>
+            <tbody id="myFiddlesBod"></tbody>
+            <tfoot id="myFiddlesFtr" style="display:none;"></tfoot>
+        </table>
+
+
+
+
+    </div><br/><hr/><br/>
+    
+</body>
+</html>
