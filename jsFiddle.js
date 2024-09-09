@@ -42,8 +42,8 @@ function dtMe() {
 }
 
 function GetFiddles(start, limit, end) {
-        //var user = "http://jsfiddle.net/user/get_username/";
-    var url = 'http://jsfiddle.net/api/user/Cyberjetx/demo/list.json?callback=?&start=' + start + '&limit=' + limit; //&sort=created
+        //var user = "https://jsfiddle.net/user/get_username/";
+    var url = 'https://jsfiddle.net/api/user/Cyberjetx/demo/list.json?callback=?&start=' + start + '&limit=' + limit; //&sort=created
     console.log("url: " + url);
 
     $.getJSON(url, function (data) {
@@ -97,7 +97,7 @@ function GetFiddles(start, limit, end) {
 
 function GetCount() {
 
-    var url = "http://jsfiddle.net/api/user/Cyberjetx/demo/list.json?callback=?&start=0&limit=0";
+    var url = "https://jsfiddle.net/api/user/Cyberjetx/demo/list.json?callback=?&start=0&limit=0";
     var retVal = 0;
 
     $.getJSON(url, function (data) {
